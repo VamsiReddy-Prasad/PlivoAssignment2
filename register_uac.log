@@ -1,0 +1,61 @@
+----------------------------------------------- 2021-11-15 22:35:26.326347
+UDP message sent (393 bytes):
+
+REGISTER sip:phone.plivo.com SIP/2.0
+Via: SIP/2.0/UDP 10.54.81.66:5070;branch=z9hG4bK-3891461-1-0
+From: <sip:test1281881673873471385@phone.plivo.com>;tag=1
+To: <sip:test1281881673873471385@phone.plivo.com>
+Call-ID: 1-3891461@10.54.81.66
+CSeq: 1 REGISTER
+Contact: sip:test1281881673873471385@10.54.81.66:5070
+Max-Forwards: 70
+Expires: 1800
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2021-11-15 22:35:26.555040
+UDP message received [422] bytes :
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 10.54.81.66:5070;branch=z9hG4bK-3891461-1-0
+From: <sip:test1281881673873471385@phone.plivo.com>;tag=1
+To: <sip:test1281881673873471385@phone.plivo.com>;tag=36045fe64c2cc3a2467eef830a1d7423.3fc6eeb4
+Call-ID: 1-3891461@10.54.81.66
+CSeq: 1 REGISTER
+WWW-Authenticate: Digest realm="phone.plivo.com", nonce="YZKUgmGSk1ZLg2+hMvSOudOToTzuS92I"
+Server: Plivo
+Content-Length: 0
+
+
+----------------------------------------------- 2021-11-15 22:35:26.555478
+UDP message sent (602 bytes):
+
+REGISTER sip:phone.plivo.com SIP/2.0
+Via: SIP/2.0/UDP 10.54.81.66:5070;branch=z9hG4bK-3891461-1-2
+From: <sip:test1281881673873471385@phone.plivo.com>;tag=1
+To: <sip:test1281881673873471385@phone.plivo.com>
+Call-ID: 1-3891461@10.54.81.66
+CSeq: 2 REGISTER
+Contact: sip:test1281881673873471385@10.54.81.66:5070
+Authorization: Digest username="test1281881673873471385",realm="phone.plivo.com",uri="sip:52.9.254.127:5060",nonce="YZKUgmGSk1ZLg2+hMvSOudOToTzuS92I",response="98755439b1e81fc56b63106d9472d18e",algorithm=MD5
+Max-Forwards: 70
+Expires: 1800
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2021-11-15 22:35:26.796778
+UDP message received [390] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.54.81.66:5070;branch=z9hG4bK-3891461-1-2
+From: <sip:test1281881673873471385@phone.plivo.com>;tag=1
+To: <sip:test1281881673873471385@phone.plivo.com>;tag=36045fe64c2cc3a2467eef830a1d7423.3fc6eeb4
+Call-ID: 1-3891461@10.54.81.66
+CSeq: 2 REGISTER
+Contact: <sip:test1281881673873471385@10.54.81.66:5070>;expires=1800
+Server: Plivo
+Content-Length: 0
+
+
